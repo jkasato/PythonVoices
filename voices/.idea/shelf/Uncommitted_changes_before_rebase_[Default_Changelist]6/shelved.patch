@@ -1,0 +1,379 @@
+Index: voices/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#python-docs-samples\r\npython-docs-samples\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- voices/.gitignore	(revision 40f813f537277f43e23d125ef21261705dae2a0b)
++++ voices/.gitignore	(date 1591960924192)
+@@ -1,2 +1,1 @@
+-#python-docs-samples
+-python-docs-samples
++
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n    <mapping directory=\"$PROJECT_DIR$/python-docs-samples\" vcs=\"Git\" />\r\n    <mapping directory=\"$PROJECT_DIR$/python-texttospeech\" vcs=\"Git\" />\r\n    <mapping directory=\"$PROJECT_DIR$/voices\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision 55933733c5a006e47d3d668081245fcacfc6a044)
++++ .idea/vcs.xml	(date 1591961515503)
+@@ -1,9 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
+     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-    <mapping directory="$PROJECT_DIR$/python-docs-samples" vcs="Git" />
+     <mapping directory="$PROJECT_DIR$/python-texttospeech" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/python-texttospeech/samples/snippets" vcs="Git" />
+     <mapping directory="$PROJECT_DIR$/voices" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b773680a-bebf-4950-9245-962836a6876b\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/voices/.gitignore\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/voices/.gitignore\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/python-texttospeech\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"hiddenUrls\">\r\n      <set>\r\n        <option value=\"https://github.com/googleapis/python-texttospeech.git\" />\r\n        <option value=\"https://github.com/jkasato/voices.git\" />\r\n      </set>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1d83c1rgMpNp2A9QgISFrYLb3oE\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"Git.Branch.Popup.ShowAllRemotes\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"TERMINAL_CUSTOM_COMMANDS_GOT_IT\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"restartRequiresConfirmation\" value=\"false\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"project.propVCSSupport.Mappings\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\j\\PycharmProjects\\voices\\python-texttospeech\\samples\\snippets\" />\r\n      <recent name=\"C:\\Users\\j\\PycharmProjects\\voices\\python-texttospeech\\samples\\snippets\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.normalvoicessmltoaudio (1)\">\r\n    <configuration name=\"list_voices\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"voices\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/python-texttospeech/samples/snippets/list_voices.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"method\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"voices\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/venv/Lib/site-packages/google/api_core/gapic_v1\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/venv/Lib/site-packages/google/api_core/gapic_v1/method.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"normalvoicessmltoaudio (1)\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"voices\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/python-texttospeech/samples/snippets/normalvoicessmltoaudio.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"normalvoicessmltoaudio\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"voices\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\j\\PycharmProjects\\voices\\python-texttospeech\\samples\\snippets\\normalvoicessmltoaudio.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"normalvoicessmltoaudio\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"voices\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\j\\PycharmProjects\\voices\\python-texttospeech\\samples\\snippets\\normalvoicessmltoaudio.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.normalvoicessmltoaudio (1)\" />\r\n        <item itemvalue=\"Python.normalvoicessmltoaudio\" />\r\n        <item itemvalue=\"Python.method\" />\r\n        <item itemvalue=\"Python.normalvoicessmltoaudio\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b773680a-bebf-4950-9245-962836a6876b\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1591792968474</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1591792968474</updated>\r\n      <workItem from=\"1591792979155\" duration=\"1962000\" />\r\n      <workItem from=\"1591840305269\" duration=\"10091000\" />\r\n      <workItem from=\"1591851781399\" duration=\"28000\" />\r\n      <workItem from=\"1591851971195\" duration=\"3007000\" />\r\n      <workItem from=\"1591855305276\" duration=\"7000\" />\r\n      <workItem from=\"1591855315320\" duration=\"574000\" />\r\n      <workItem from=\"1591856082284\" duration=\"595000\" />\r\n      <workItem from=\"1591934925867\" duration=\"2915000\" />\r\n      <workItem from=\"1591937883423\" duration=\"19198000\" />\r\n      <workItem from=\"1591959425536\" duration=\"732000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"test\">\r\n      <created>1591959039631</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1591959039631</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"test\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"test\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"452\" y=\"87\" key=\"#Inspections\" timestamp=\"1591794003558\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"452\" y=\"87\" key=\"#Inspections/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591794003558\" />\r\n    <state x=\"414\" y=\"159\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1591793186718\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"414\" y=\"159\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591793186718\" />\r\n    <state x=\"644\" y=\"295\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1591956264293\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"644\" y=\"295\" key=\"#com.intellij.fileTypes.FileTypeChooser/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591956264293\" />\r\n    <state x=\"624\" y=\"203\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog\" timestamp=\"1591951170278\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"624\" y=\"203\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591951170278\" />\r\n    <state x=\"471\" y=\"5\" key=\"CommitChangelistDialog2\" timestamp=\"1591959039065\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"471\" y=\"5\" key=\"CommitChangelistDialog2/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591959039065\" />\r\n    <state x=\"687\" y=\"214\" key=\"FileChooserDialogImpl\" timestamp=\"1591938260739\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"687\" y=\"214\" key=\"FileChooserDialogImpl/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591938260739\" />\r\n    <state width=\"1865\" height=\"215\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1591959409075\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1865\" height=\"215\" key=\"GridCell.Tab.0.bottom/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591959409075\" />\r\n    <state width=\"1865\" height=\"215\" key=\"GridCell.Tab.0.center\" timestamp=\"1591959409075\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1865\" height=\"215\" key=\"GridCell.Tab.0.center/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591959409075\" />\r\n    <state width=\"1865\" height=\"215\" key=\"GridCell.Tab.0.left\" timestamp=\"1591959409075\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1865\" height=\"215\" key=\"GridCell.Tab.0.left/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591959409075\" />\r\n    <state width=\"1865\" height=\"215\" key=\"GridCell.Tab.0.right\" timestamp=\"1591959409075\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1865\" height=\"215\" key=\"GridCell.Tab.0.right/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591959409075\" />\r\n    <state x=\"337\" y=\"68\" key=\"SettingsEditor\" timestamp=\"1591959235909\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"337\" y=\"68\" key=\"SettingsEditor/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591959235909\" />\r\n    <state width=\"643\" height=\"498\" key=\"SwitcherDM\" timestamp=\"1591943353375\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"643\" height=\"498\" key=\"SwitcherDM/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591943353375\" />\r\n    <state x=\"452\" y=\"186\" width=\"1106\" height=\"667\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1591959993606\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"452\" y=\"186\" width=\"1106\" height=\"667\" key=\"Vcs.Push.Dialog.v2/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591959993606\" />\r\n    <state x=\"756\" y=\"0\" width=\"957\" height=\"1040\" key=\"find.popup\" timestamp=\"1591959956054\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"756\" y=\"0\" width=\"957\" height=\"1040\" key=\"find.popup/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591959956054\" />\r\n    <state x=\"762\" y=\"247\" key=\"refactoring.ChangeSignatureDialog\" timestamp=\"1591937079665\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"762\" y=\"247\" key=\"refactoring.ChangeSignatureDialog/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591937079665\" />\r\n    <state x=\"539\" y=\"5\" key=\"search.everywhere.popup\" timestamp=\"1591955632665\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"539\" y=\"5\" key=\"search.everywhere.popup/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1591955632665\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/voices$julietest__1_.coverage\" NAME=\"julietest (1) Coverage Results\" MODIFIED=\"1591844630254\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$infomercialvoice.coverage\" NAME=\"infomercialvoice Coverage Results\" MODIFIED=\"1591953891107\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$normalvoicessmltoaudio__1_.coverage\" NAME=\"normalvoicessmltoaudio (1) Coverage Results\" MODIFIED=\"1591958577941\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$julietest.coverage\" NAME=\"julietest Coverage Results\" MODIFIED=\"1591794627060\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets/resources\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$ssml_addresses_test.coverage\" NAME=\"ssml_addresses_test Coverage Results\" MODIFIED=\"1591941990028\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$method.coverage\" NAME=\"method Coverage Results\" MODIFIED=\"1591952639376\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/venv/Lib/site-packages/google/api_core/gapic_v1\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$synthesize_file.coverage\" NAME=\"synthesize_file Coverage Results\" MODIFIED=\"1591941791678\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$julietest2.coverage\" NAME=\"julietest2 Coverage Results\" MODIFIED=\"1591950444219\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$normalvoice__1_.coverage\" NAME=\"normalvoice (1) Coverage Results\" MODIFIED=\"1591953905905\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$audio_profile.coverage\" NAME=\"audio_profile Coverage Results\" MODIFIED=\"1591946611060\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$synthesize_text.coverage\" NAME=\"synthesize_text Coverage Results\" MODIFIED=\"1591941840164\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$list_voices.coverage\" NAME=\"list_voices Coverage Results\" MODIFIED=\"1591946625379\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$ssml_addresses.coverage\" NAME=\"ssml_addresses Coverage Results\" MODIFIED=\"1591941849144\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$julietest3.coverage\" NAME=\"julietest3 Coverage Results\" MODIFIED=\"1591937848471\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$quickstart.coverage\" NAME=\"quickstart Coverage Results\" MODIFIED=\"1591937963284\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n    <SUITE FILE_PATH=\"coverage/voices$quickstart__1_.coverage\" NAME=\"quickstart (1) Coverage Results\" MODIFIED=\"1591794122832\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/python-texttospeech/samples/snippets\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 55933733c5a006e47d3d668081245fcacfc6a044)
++++ .idea/workspace.xml	(date 1591961549787)
+@@ -2,6 +2,12 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="b773680a-bebf-4950-9245-962836a6876b" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/voices.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/voices/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/voices/.gitignore" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -22,8 +28,9 @@
+         <entry key="$PROJECT_DIR$" value="master" />
+       </map>
+     </option>
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/python-texttospeech" />
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
+     <option name="ROOT_SYNC" value="SYNC" />
++    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+   </component>
+   <component name="GithubPullRequestsUISettings">
+     <option name="hiddenUrls">
+@@ -43,12 +50,14 @@
+   </component>
+   <component name="PropertiesComponent">
+     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
++    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="nodejs_package_manager_path" value="npm" />
+     <property name="restartRequiresConfirmation" value="false" />
+     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+@@ -59,43 +68,21 @@
+       <recent name="C:\Users\j\PycharmProjects\voices\python-texttospeech\samples\snippets\resources" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Python.normalvoicessmltoaudio (1)">
+-    <configuration name="list_voices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-      <module name="voices" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-texttospeech/samples/snippets/list_voices.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++  <component name="RunManager">
++    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+       <module name="voices" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+       <envs>
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Lib/site-packages/google/api_core/gapic_v1" />
+-      <option name="IS_MODULE_SDK" value="true" />
++      <option name="SDK_HOME" value="C:\Users\j\Downloads\springer_free_books-master\springer_free_books-master\springer_free_books\venv\Scripts\python.exe" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
++      <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Lib/site-packages/google/api_core/gapic_v1/method.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -104,15 +91,15 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="normalvoicessmltoaudio (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="normalvoicessmltoaudio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="voices" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+       <envs>
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
++      <option name="SDK_HOME" value="C:\Users\j\Downloads\springer_free_books-master\springer_free_books-master\springer_free_books\venv\Scripts\python.exe" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+@@ -148,33 +135,9 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="normalvoicessmltoaudio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-      <module name="voices" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="C:\Users\j\PycharmProjects\voices\python-texttospeech\samples\snippets\normalvoicessmltoaudio.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Python.normalvoicessmltoaudio (1)" />
+         <item itemvalue="Python.normalvoicessmltoaudio" />
+-        <item itemvalue="Python.method" />
+         <item itemvalue="Python.normalvoicessmltoaudio" />
+       </list>
+     </recent_temporary>
+@@ -198,7 +161,9 @@
+       <workItem from="1591856082284" duration="595000" />
+       <workItem from="1591934925867" duration="2915000" />
+       <workItem from="1591937883423" duration="19198000" />
+-      <workItem from="1591959425536" duration="732000" />
++      <workItem from="1591959425536" duration="1602000" />
++      <workItem from="1591961054074" duration="221000" />
++      <workItem from="1591961289428" duration="259000" />
+     </task>
+     <task id="LOCAL-00001" summary="test">
+       <created>1591959039631</created>
+@@ -215,6 +180,9 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
++    <ignored-roots>
++      <path value="$PROJECT_DIR$/python-docs-samples" />
++    </ignored-roots>
+     <MESSAGE value="test" />
+     <option name="LAST_COMMIT_MESSAGE" value="test" />
+   </component>
+@@ -223,10 +191,14 @@
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state x="452" y="87" key="#Inspections/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591794003558" />
+-    <state x="414" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591793186718">
++    <state x="817" y="350" width="639" height="340" key="#Notifications" timestamp="1591960661935">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="817" y="350" width="639" height="340" key="#Notifications/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591960661935" />
++    <state x="414" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591961213536">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="414" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591793186718" />
++    <state x="414" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591961213536" />
+     <state x="644" y="295" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591956264293">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+@@ -239,38 +211,42 @@
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state x="471" y="5" key="CommitChangelistDialog2/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591959039065" />
+-    <state x="687" y="214" key="FileChooserDialogImpl" timestamp="1591938260739">
++    <state x="687" y="214" key="FileChooserDialogImpl" timestamp="1591961183425">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="687" y="214" key="FileChooserDialogImpl/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591938260739" />
+-    <state width="1865" height="215" key="GridCell.Tab.0.bottom" timestamp="1591959409075">
++    <state x="687" y="214" key="FileChooserDialogImpl/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591961183425" />
++    <state width="1195" height="215" key="GridCell.Tab.0.bottom" timestamp="1591961189913">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="1865" height="215" key="GridCell.Tab.0.bottom/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591959409075" />
+-    <state width="1865" height="215" key="GridCell.Tab.0.center" timestamp="1591959409075">
++    <state width="1195" height="215" key="GridCell.Tab.0.bottom/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591961189913" />
++    <state width="1195" height="215" key="GridCell.Tab.0.center" timestamp="1591961189912">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="1865" height="215" key="GridCell.Tab.0.center/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591959409075" />
+-    <state width="1865" height="215" key="GridCell.Tab.0.left" timestamp="1591959409075">
++    <state width="1195" height="215" key="GridCell.Tab.0.center/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591961189912" />
++    <state width="1195" height="215" key="GridCell.Tab.0.left" timestamp="1591961189912">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="1865" height="215" key="GridCell.Tab.0.left/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591959409075" />
+-    <state width="1865" height="215" key="GridCell.Tab.0.right" timestamp="1591959409075">
++    <state width="1195" height="215" key="GridCell.Tab.0.left/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591961189912" />
++    <state width="1195" height="215" key="GridCell.Tab.0.right" timestamp="1591961189912">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="1865" height="215" key="GridCell.Tab.0.right/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591959409075" />
+-    <state x="337" y="68" key="SettingsEditor" timestamp="1591959235909">
++    <state width="1195" height="215" key="GridCell.Tab.0.right/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591961189912" />
++    <state x="337" y="68" key="SettingsEditor" timestamp="1591961515135">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="337" y="68" key="SettingsEditor/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591959235909" />
++    <state x="337" y="68" key="SettingsEditor/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591961515135" />
++    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1591960662287">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591960662287" />
+     <state width="643" height="498" key="SwitcherDM" timestamp="1591943353375">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state width="643" height="498" key="SwitcherDM/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591943353375" />
+-    <state x="452" y="186" width="1106" height="667" key="Vcs.Push.Dialog.v2" timestamp="1591959993606">
++    <state x="452" y="186" width="1106" height="667" key="Vcs.Push.Dialog.v2" timestamp="1591961020800">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="452" y="186" width="1106" height="667" key="Vcs.Push.Dialog.v2/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591959993606" />
++    <state x="452" y="186" width="1106" height="667" key="Vcs.Push.Dialog.v2/1920.-284.768.1320/0.0.1920.1040@0.0.1920.1040" timestamp="1591961020800" />
+     <state x="756" y="0" width="957" height="1040" key="find.popup" timestamp="1591959956054">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+@@ -287,7 +263,7 @@
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/voices$julietest__1_.coverage" NAME="julietest (1) Coverage Results" MODIFIED="1591844630254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
+     <SUITE FILE_PATH="coverage/voices$infomercialvoice.coverage" NAME="infomercialvoice Coverage Results" MODIFIED="1591953891107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
+-    <SUITE FILE_PATH="coverage/voices$normalvoicessmltoaudio__1_.coverage" NAME="normalvoicessmltoaudio (1) Coverage Results" MODIFIED="1591958577941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
++    <SUITE FILE_PATH="coverage/voices$normalvoicessmltoaudio__1_.coverage" NAME="normalvoicessmltoaudio (1) Coverage Results" MODIFIED="1591961152777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
+     <SUITE FILE_PATH="coverage/voices$julietest.coverage" NAME="julietest Coverage Results" MODIFIED="1591794627060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-texttospeech/samples/snippets/resources" />
+     <SUITE FILE_PATH="coverage/voices$ssml_addresses_test.coverage" NAME="ssml_addresses_test Coverage Results" MODIFIED="1591941990028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
+     <SUITE FILE_PATH="coverage/voices$method.coverage" NAME="method Coverage Results" MODIFIED="1591952639376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/google/api_core/gapic_v1" />
+@@ -301,5 +277,6 @@
+     <SUITE FILE_PATH="coverage/voices$julietest3.coverage" NAME="julietest3 Coverage Results" MODIFIED="1591937848471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
+     <SUITE FILE_PATH="coverage/voices$quickstart.coverage" NAME="quickstart Coverage Results" MODIFIED="1591937963284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
+     <SUITE FILE_PATH="coverage/voices$quickstart__1_.coverage" NAME="quickstart (1) Coverage Results" MODIFIED="1591794122832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-texttospeech/samples/snippets" />
++    <SUITE FILE_PATH="coverage/voices$normalvoicessmltoaudio.coverage" NAME="normalvoicessmltoaudio Coverage Results" MODIFIED="1591961189901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/inspectionProfiles/profiles_settings.xml	(date 1591961075196)
++++ .idea/inspectionProfiles/profiles_settings.xml	(date 1591961075196)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1591961075184)
++++ .idea/modules.xml	(date 1591961075184)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/voices.iml" filepath="$PROJECT_DIR$/.idea/voices.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1591961100986)
++++ .idea/misc.xml	(date 1591961100986)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="JavaScriptSettings">
++    <option name="languageLevel" value="ES6" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (springer_free_books)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/voices.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/voices.iml	(date 1591961100964)
++++ .idea/voices.iml	(date 1591961100964)
+@@ -0,0 +1,23 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="jdk" jdkName="Python 3.7 (springer_free_books)" jdkType="Python SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++  <component name="PyDocumentationSettings">
++    <option name="format" value="PLAIN" />
++    <option name="myDocStringFormat" value="Plain" />
++  </component>
++  <component name="TemplatesService">
++    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
++    <option name="TEMPLATE_FOLDERS">
++      <list>
++        <option value="$MODULE_DIR$/voices/python-docs-samples/run/markdown-preview/editor/templates" />
++      </list>
++    </option>
++  </component>
++  <component name="TestRunnerService">
++    <option name="PROJECT_TEST_RUNNER" value="pytest" />
++  </component>
++</module>
+\ No newline at end of file
